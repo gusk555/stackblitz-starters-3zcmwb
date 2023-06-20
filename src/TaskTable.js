@@ -5,10 +5,10 @@ import { TaskContext } from './App.js';
 
 export default function TaskTable() {
   /*To reset the buttons everytime the table is loaded */
-  useEffect(() => {
+  /*useEffect(() => {
     setCancelClicked(false);
     setIndexClicked(-1)
-  });
+  });*/
   const {
     taskData,
     setTaskData,

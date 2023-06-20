@@ -12,9 +12,9 @@ export default function Task(t) {
   } = useContext(TaskContext);
   const [desc, setDesc] = useState(t.description);
   const [stat, setStat] = useState(t.status);
-  setTaskToSave({ id: t.id, description: desc, status: stat });
+  //setTaskToSave({ id: t.id, description: desc, status: stat });
   /* the below useEffect is to reset the properties when Cancel button is clicked */
-  useEffect(() => {
+  /*useEffect(() => {
     setDesc(t.description);gf
     setStat(t.status);
   }, [cancelClicked])
